@@ -1,0 +1,101 @@
+[
+  {
+    "question": "Solve the following assignments and discuss the results in your peer groups & with your Faculty: Construct the circuits using generalized simulator and verify the results.",
+    "qid": 1,
+    "option_a": "",
+    "option_b": "",
+    "option_c": "",
+    "option_d": "",
+    "correct_option": ""
+  },
+  {
+    "question": "Assignment #1: a. Prepare a truth table of an Exclusive-OR gate. b. Design and implement an Exclusive-OR gate using basic logic gates. c. Simulate and verify the truth table.",
+    "qid": 2,
+    "option_a": "",
+    "option_b": "",
+    "option_c": "",
+    "option_d": "",
+    "correct_option": ""
+  },
+  {
+    "question": "Assignment #2: Full Adder: A full adder is a digital circuit that adds two binary digits with the carry from the previous stage. It performs the addition operation A1 + B1 + C0 and produces a Sum and a Carry output: <img src = 'lab-manual/images/Exp14-1.8.png'> a. Build the Full Adder Circuit using AND, OR & XOR gates and Simulate the design. b. Verify the function table of the Full adder.",
+    "qid": 3,
+    "option_a": "",
+    "option_b": "",
+    "option_c": "",
+    "option_d": "",
+    "correct_option": ""
+  },
+  {
+    "question": "Assignment #3: Prepare a truth table for a Digital Application Circuit that has two inputs A & B and outputs X & Y such that: a. When B = 0, output X will be 0, and output Y will follow input A. b. When B = 1, output X will follow input A, and output Y will be 0.",
+    "qid": 4,
+    "option_a": "",
+    "option_b": "",
+    "option_c": "",
+    "option_d": "",
+    "correct_option": ""
+  },
+  {
+    "question": "Assignment #4: Draw the circuit for application quoted in Assignment #3 using NAND gates only. Simulate and Verify the function of the logic circuit.",
+    "qid": 5,
+    "option_a": "",
+    "option_b": "",
+    "option_c": "",
+    "option_d": "",
+    "correct_option": ""
+  },
+  {
+    "question": "Assignment #5: Refer Assignment #2: Draw the Full Adder using NAND gates & XOR gates only. Simulate and verify the truth table. a. Consider A1 A0 as a two-bit binary number and B1 B0 another two-bit binary number. A's and B's can take values 00, 01, 10, 11.",
+    "qid": 6,
+    "option_a": "",
+    "option_b": "",
+    "option_c": "",
+    "option_d": "",
+    "correct_option": ""
+  },
+  {
+    "question": "Assignment #6: Design a logic circuit, that has A1 A0, B1 B0 as inputs. a. Produces an output that goes HIGH only when the two binary numbers A1 A0 and B1 B0 are EQUAL. b. Produces an output that goes HIGH only when the two binary numbers A1 A0 > B1 B0. c. Produces an output that goes HIGH only when the two binary numbers A1 A0 < B1 B0. Hint: Prepare a 4-input truth table. d. Simulate the same using two-input gates and verify its functionality.",
+    "qid": 7,
+    "option_a": "",
+    "option_b": "",
+    "option_c": "",
+    "option_d": "",
+    "correct_option": ""
+  },
+  {
+    "question": "Assignment #7: Analyse and Simplify the logic circuit shown below: <img src = 'lab-manual/images/Exp14-1.9.png'> a. Write down the simplified expression for output Y. b. Implement the expression obtained in 'a' using two-input NAND gates only. Verify the simulation results. c. Implement the expression obtained in 'a' using two-input NOR gates only. Verify the simulation results.",
+    "qid": 8,
+    "option_a": "",
+    "option_b": "",
+    "option_c": "",
+    "option_d": "",
+    "correct_option": ""
+  },
+  {
+    "question": "Assignment #8: a. Half Subtractor: Design a Half Subtractor that performs one bit subtraction and produces outputs: Difference and Borrow. b. Using generalized Simulator, Simulate and Verify its truth table. c. Full Subtractor: Design a Full Subtractor that performs subtraction of two bits and a previous borrow and produces outputs: Difference and Borrow. d. Using generalized Simulator, Simulate and Verify its truth table.",
+    "qid": 9,
+    "option_a": "",
+    "option_b": "",
+    "option_c": "",
+    "option_d": "",
+    "correct_option": ""
+  },
+  {
+    "question": "Assignment #9: Application: Even Parity Generator. A group of four bits (D3 D2 D1 D0) is used as data to be transmitted and it uses an even parity bit. A transmitter can attach a parity bit to the data bits before transmitting it to a receiver for single-bit error detection. A parity generation system is shown in figure below: <img src = 'lab-manual/images/Exp14-1.10.png'> a. Simulate this parity bit generator circuit. b. Determine the parity generator's output for each of the following inputs: i) 0110 ii) 1110 iii) 0000 iv) 0101.",
+    "qid": 10,
+    "option_a": "",
+    "option_b": "",
+    "option_c": "",
+    "option_d": "",
+    "correct_option": ""
+  },
+  {
+    "question": "Assignment #10: Application: Even Parity Checker. Data+ Parity (five bits) generated in Assignment #9 are connected to a receiver's parity checker system which produces an error E that indicates whether a single-bit error has occurred. Error: E = 1 when error & E = 0 when no error. <img src = 'lab-manual/images/Exp14-1.11.png'> a. Simulate the parity checker system. b. Determine the parity checker's output for following set of inputs: i) P = 0 & D3 D2 D1 D0 = 1010 ii) P = 1 & D3 D2 D1 D0 = 1110.",
+    "qid": 11,
+    "option_a": "",
+    "option_b": "",
+    "option_c": "",
+    "option_d": "",
+    "correct_option": ""
+  }
+]

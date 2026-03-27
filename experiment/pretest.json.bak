@@ -1,0 +1,101 @@
+[
+  {
+    "question": "Solve the following assignments and discuss the results in your peer groups & with your Faculty: Construct the circuits using generalized simulator and verify the results.",
+    "qid": 1,
+    "option_a": "",
+    "option_b": "",
+    "option_c": "",
+    "option_d": "",
+    "correct_option": ""
+  },
+  {
+    "question": "Assignment #1: a. Prepare a truth table for the following figure: <img src = 'lab-manual/images/Exp14-1.4.png'> b. Write down the equation for the output. Note: The div block (Y connector) represented in the above diagram is to indicate that a particular input say A1 is connected as input to both the gates (NAND & NOR). The output of AND gate is given to a Green LED.",
+    "qid": 2,
+    "option_a": "",
+    "option_b": "",
+    "option_c": "",
+    "option_d": "",
+    "correct_option": ""
+  },
+  {
+    "question": "Assignment #2: Build the logic circuit in Assignment #1. Simulate and Verify the function of the circuit. Can you suggest which logic gate can replace this entire logic circuit?",
+    "qid": 3,
+    "option_a": "",
+    "option_b": "",
+    "option_c": "",
+    "option_d": "",
+    "correct_option": ""
+  },
+  {
+    "question": "Assignment #3: a. Build the logic circuit given below: <img src = 'lab-manual/images/Exp14-1.5.png'> b. Write down the equation for the output. c. Simulate and Verify the operation of the circuit.",
+    "qid": 4,
+    "option_a": "",
+    "option_b": "",
+    "option_c": "",
+    "option_d": "",
+    "correct_option": ""
+  },
+  {
+    "question": "Assignment #4: a. Build the logic circuit given below: <img src = 'lab-manual/images/Exp14-1.6.png'> b. Write down the output equations for all four outputs. c. Simulate and Verify the operation of the circuit. d. State does this circuit work as a Decoder?",
+    "qid": 5,
+    "option_a": "",
+    "option_b": "",
+    "option_c": "",
+    "option_d": "",
+    "correct_option": ""
+  },
+  {
+    "question": "Assignment #5: A novice was building an application in phases; while doing so he built the following digital circuit: <img src = 'lab-manual/images/Exp14-1.7.png'>",
+    "qid": 6,
+    "option_a": "",
+    "option_b": "",
+    "option_c": "",
+    "option_d": "",
+    "correct_option": ""
+  },
+  {
+    "question": "Assignment #6: Refer Assignment #5. If all NAND gates are replaced by NOR gates, what is the output Y? a. Logic 0 b. Logic 1 c. Y = A1.B1 d. Y = A1 + B1",
+    "qid": 7,
+    "option_a": "",
+    "option_b": "",
+    "option_c": "",
+    "option_d": "",
+    "correct_option": ""
+  },
+  {
+    "question": "Assignment #7: The performance of a digital circuit to be used in printing machine is described using a Boolean expression: Y = AC + BC' + A'BC. a. Analyse and Prepare a function table for the same. b. Build and Simulate the above circuit and verify its operation.",
+    "qid": 8,
+    "option_a": "",
+    "option_b": "",
+    "option_c": "",
+    "option_d": "",
+    "correct_option": ""
+  },
+  {
+    "question": "Assignment #8: a. Draw the circuit diagram to implement the expression: Y = (A + B)(B' + C). b. Implement the circuit, simulate and verify the output.",
+    "qid": 9,
+    "option_a": "",
+    "option_b": "",
+    "option_c": "",
+    "option_d": "",
+    "correct_option": ""
+  },
+  {
+    "question": "Assignment #9: a. Draw the circuit diagram that implements the expression: Y = A'BC(A+D)' using gates with not more than two inputs. b. Simulate the circuit and observe the output.",
+    "qid": 10,
+    "option_a": "",
+    "option_b": "",
+    "option_c": "",
+    "option_d": "",
+    "correct_option": ""
+  },
+  {
+    "question": "Assignment #10: Application: Majority Circuit. a. Design a logic circuit that has three inputs A, B and C and whose output will be HIGH only when a majority of the inputs are HIGH. b. Implement the Majority circuit using two-input: i) AOI logic (AND, OR, Invert gates only). ii) NAND gates only. iii) Using NOR gates only. c. State which of the above designs requires a minimum gate count.",
+    "qid": 11,
+    "option_a": "",
+    "option_b": "",
+    "option_c": "",
+    "option_d": "",
+    "correct_option": ""
+  }
+]
