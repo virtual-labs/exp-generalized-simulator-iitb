@@ -9,7 +9,7 @@
     "correct_option": ""
   },
   {
-    "question": "Assignment #1: a. Prepare a truth table of an Exclusive-OR gate. b. Design and implement an Exclusive-OR gate using basic logic gates. c. Simulate and verify the truth table.",
+    "question": "Assignment #1: a. Prepare a truth table for the following figure: <img src = 'lab-manual/images/Exp14-1.4.png'> b. Write down the equation for the output. Note: The div block (Y connector) represented in the above diagram is to indicate that a particular input say A1 is connected as input to both the gates (NAND & NOR). The output of AND gate is given to a Green LED.",
     "qid": 2,
     "option_a": "",
     "option_b": "",
@@ -18,7 +18,7 @@
     "correct_option": ""
   },
   {
-    "question": "Assignment #2: Full Adder: A full adder is a digital circuit that adds two binary digits with the carry from the previous stage. It performs the addition operation A1 + B1 + C0 and produces a Sum and a Carry output. a. Build the Full Adder Circuit using AND, OR & XOR gates and Simulate the design. b. Verify the function table of the Full adder.",
+    "question": "Assignment #2: Build the logic circuit in Assignment #1. Simulate and Verify the function of the circuit. Can you suggest which logic gate can replace this entire logic circuit?",
     "qid": 3,
     "option_a": "",
     "option_b": "",
@@ -27,7 +27,7 @@
     "correct_option": ""
   },
   {
-    "question": "Assignment #3: Prepare a truth table for a Digital Application Circuit that has two inputs A & B and outputs X & Y such that: a. When B = 0, output X will be 0, and output Y will follow input A. b. When B = 1, output X will follow input A, and output Y will be 0.",
+    "question": "Assignment #3: a. Build the logic circuit given below: <img src = 'lab-manual/images/Exp14-1.5.png'> b. Write down the equation for the output. c. Simulate and Verify the operation of the circuit.",
     "qid": 4,
     "option_a": "",
     "option_b": "",
@@ -36,7 +36,7 @@
     "correct_option": ""
   },
   {
-    "question": "Assignment #4: Draw the circuit for application quoted in Assignment #3 using NAND gates only. Simulate and Verify the function of the logic circuit.",
+    "question": "Assignment #4: a. Build the logic circuit given below: <img src = 'lab-manual/images/Exp14-1.6.png'> b. Write down the output equations for all four outputs. c. Simulate and Verify the operation of the circuit. d. State does this circuit work as a Decoder?",
     "qid": 5,
     "option_a": "",
     "option_b": "",
@@ -45,7 +45,7 @@
     "correct_option": ""
   },
   {
-    "question": "Assignment #5: Refer Assignment #2: Draw the Full Adder using NAND gates & XOR gates only. Simulate and verify the truth table. a. Consider A1 A0 as a two-bit binary number and B1 B0 another two-bit binary number. A's and B's can take values 00, 01, 10, 11.",
+    "question": "Assignment #5: A novice was building an application in phases; while doing so he built the following digital circuit: <img src = 'lab-manual/images/Exp14-1.7.png'>",
     "qid": 6,
     "option_a": "",
     "option_b": "",
@@ -54,7 +54,7 @@
     "correct_option": ""
   },
   {
-    "question": "Assignment #6: Design a logic circuit, that has A1 A0, B1 B0 as inputs. a. Produces an output that goes HIGH only when the two binary numbers A1 A0 and B1 B0 are EQUAL. b. Produces an output that goes HIGH only when the two binary numbers A1 A0 > B1 B0. c. Produces an output that goes HIGH only when the two binary numbers A1 A0 < B1 B0. Hint: Prepare a 4-input truth table. d. Simulate the same using two-input gates and verify its functionality.",
+    "question": "Assignment #6: Refer Assignment #5. If all NAND gates are replaced by NOR gates, what is the output Y? a. Logic 0 b. Logic 1 c. Y = A1.B1 d. Y = A1 + B1",
     "qid": 7,
     "option_a": "",
     "option_b": "",
@@ -63,7 +63,7 @@
     "correct_option": ""
   },
   {
-    "question": "Assignment #7: Analyse and Simplify the logic circuit shown. a. Write down the simplified expression for output Y. b. Implement the expression obtained in 'a' using two-input NAND gates only. Verify the simulation results. c. Implement the expression obtained in 'a' using two-input NOR gates only. Verify the simulation results.",
+    "question": "Assignment #7: The performance of a digital circuit to be used in printing machine is described using a Boolean expression: Y = AC + BC' + A'BC. a. Analyse and Prepare a function table for the same. b. Build and Simulate the above circuit and verify its operation.",
     "qid": 8,
     "option_a": "",
     "option_b": "",
@@ -72,7 +72,7 @@
     "correct_option": ""
   },
   {
-    "question": "Assignment #8: a. Half Subtractor: Design a Half Subtractor that performs one bit subtraction and produces outputs: Difference and Borrow. b. Using generalized Simulator, Simulate and Verify its truth table. c. Full Subtractor: Design a Full Subtractor that performs subtraction of two bits and a previous borrow and produces outputs: Difference and Borrow. d. Using generalized Simulator, Simulate and Verify its truth table.",
+    "question": "Assignment #8: a. Draw the circuit diagram to implement the expression: Y = (A + B)(B' + C). b. Implement the circuit, simulate and verify the output.",
     "qid": 9,
     "option_a": "",
     "option_b": "",
@@ -81,7 +81,7 @@
     "correct_option": ""
   },
   {
-    "question": "Assignment #9: Application: Even Parity Generator. A group of four bits (D3 D2 D1 D0) is used as data to be transmitted and it uses an even parity bit. A transmitter can attach a parity bit to the data bits before transmitting it to a receiver for single-bit error detection. a. Simulate this parity bit generator circuit. b. Determine the parity generator's output for each of the following inputs: i) 0110 ii) 1110 iii) 0000 iv) 0101.",
+    "question": "Assignment #9: a. Draw the circuit diagram that implements the expression: Y = A'BC(A+D)' using gates with not more than two inputs. b. Simulate the circuit and observe the output.",
     "qid": 10,
     "option_a": "",
     "option_b": "",
@@ -90,7 +90,7 @@
     "correct_option": ""
   },
   {
-    "question": "Assignment #10: Application: Even Parity Checker. Data + Parity (five bits) generated in Assignment #9 are connected to a receiver's parity checker system which produces an error E that indicates whether a single-bit error has occurred. Error: E = 1 when error & E = 0 when no error. a. Simulate the parity checker system. b. Determine the parity checker's output for following set of inputs: i) P = 0 & D3 D2 D1 D0 = 1010 ii) P = 1 & D3 D2 D1 D0 = 1110.",
+    "question": "Assignment #10: Application: Majority Circuit. a. Design a logic circuit that has three inputs A, B and C and whose output will be HIGH only when a majority of the inputs are HIGH. b. Implement the Majority circuit using two-input: i) AOI logic (AND, OR, Invert gates only). ii) NAND gates only. iii) Using NOR gates only. c. State which of the above designs requires a minimum gate count.",
     "qid": 11,
     "option_a": "",
     "option_b": "",
