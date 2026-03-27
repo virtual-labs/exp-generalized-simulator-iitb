@@ -18,7 +18,7 @@
     "correct_option": ""
   },
   {
-    "question": "Assignment #2: Full Adder: A full adder is a digital circuit that adds two binary digits with the carry from the previous stage. It performs the addition operation A1 + B1 + C0 and produces a Sum and a Carry output. a. Build the Full Adder Circuit using AND, OR & XOR gates and Simulate the design. b. Verify the function table of the Full adder.",
+    "question": "Assignment #2: Full Adder: A full adder is a digital circuit that adds two binary digits with the carry from the previous stage. It performs the addition operation A1 + B1 + C0 and produces a Sum and a Carry output: <img src = 'lab-manual/images/Exp14-1.8.png'> a. Build the Full Adder Circuit using AND, OR & XOR gates and Simulate the design. b. Verify the function table of the Full adder.",
     "qid": 3,
     "option_a": "",
     "option_b": "",
@@ -63,7 +63,7 @@
     "correct_option": ""
   },
   {
-    "question": "Assignment #7: Analyse and Simplify the logic circuit shown. a. Write down the simplified expression for output Y. b. Implement the expression obtained in 'a' using two-input NAND gates only. Verify the simulation results. c. Implement the expression obtained in 'a' using two-input NOR gates only. Verify the simulation results.",
+    "question": "Assignment #7: Analyse and Simplify the logic circuit shown below: <img src = 'lab-manual/images/Exp14-1.9.png'> a. Write down the simplified expression for output Y. b. Implement the expression obtained in 'a' using two-input NAND gates only. Verify the simulation results. c. Implement the expression obtained in 'a' using two-input NOR gates only. Verify the simulation results.",
     "qid": 8,
     "option_a": "",
     "option_b": "",
@@ -81,7 +81,7 @@
     "correct_option": ""
   },
   {
-    "question": "Assignment #9: Application: Even Parity Generator. A group of four bits (D3 D2 D1 D0) is used as data to be transmitted and it uses an even parity bit. A transmitter can attach a parity bit to the data bits before transmitting it to a receiver for single-bit error detection. a. Simulate this parity bit generator circuit. b. Determine the parity generator's output for each of the following inputs: i) 0110 ii) 1110 iii) 0000 iv) 0101.",
+    "question": "Assignment #9: Application: Even Parity Generator. A group of four bits (D3 D2 D1 D0) is used as data to be transmitted and it uses an even parity bit. A transmitter can attach a parity bit to the data bits before transmitting it to a receiver for single-bit error detection. A parity generation system is shown in figure below: <img src = 'lab-manual/images/Exp14-1.10.png'> a. Simulate this parity bit generator circuit. b. Determine the parity generator's output for each of the following inputs: i) 0110 ii) 1110 iii) 0000 iv) 0101.",
     "qid": 10,
     "option_a": "",
     "option_b": "",
@@ -90,7 +90,7 @@
     "correct_option": ""
   },
   {
-    "question": "Assignment #10: Application: Even Parity Checker. Data + Parity (five bits) generated in Assignment #9 are connected to a receiver's parity checker system which produces an error E that indicates whether a single-bit error has occurred. Error: E = 1 when error & E = 0 when no error. a. Simulate the parity checker system. b. Determine the parity checker's output for following set of inputs: i) P = 0 & D3 D2 D1 D0 = 1010 ii) P = 1 & D3 D2 D1 D0 = 1110.",
+    "question": "Assignment #10: Application: Even Parity Checker. Data+ Parity (five bits) generated in Assignment #9 are connected to a receiver's parity checker system which produces an error E that indicates whether a single-bit error has occurred. Error: E = 1 when error & E = 0 when no error. <img src = 'lab-manual/images/Exp14-1.11.png'> a. Simulate the parity checker system. b. Determine the parity checker's output for following set of inputs: i) P = 0 & D3 D2 D1 D0 = 1010 ii) P = 1 & D3 D2 D1 D0 = 1110.",
     "qid": 11,
     "option_a": "",
     "option_b": "",
